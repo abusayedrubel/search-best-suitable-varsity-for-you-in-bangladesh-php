@@ -1,0 +1,46 @@
+=== Admin ===
+
+1. Add University
+	-u_id(pk)
+	-Name
+	-Datails
+	-Image
+	-Location
+	-faculty
+	-service
+	-SemesterNo.
+
+2. Add Course
+	-c_id(pk)
+	-Course Name
+	-CourseCode
+
+	(ex: CSE,BBA)
+
+3. Add Subjects:
+    -s_id
+	-c_id(fk)
+	-u_id(fk)
+	_Course_select
+	_Uni_select
+	-semester
+	-sub_name
+	-sub_code
+	-credit
+	-cost
+
+4. Details: (Later)
+	*University>Course___detail-course<<delete_Subject
+
+
+5. Admin Table: (Later)
+	
+
+
+
+
+============  =============
+
+1.Setup with semester -- done
+2.best for me -- done
+3.Delete func
